@@ -117,8 +117,6 @@ long long get_long_long(const char *format, ...) __attribute__((format(printf, 1
  * on heap, but library's destructor frees memory on program's exit.
  */
 string get_string(va_list *args, const char *format, ...) __attribute__((format(printf, 2, 3)));
-#define get_string(...) get_string(NULL, __VA_ARGS__)
-
 
 // Disable warnings from some compilers about the way we use variadic arguments 
 #pragma GCC diagnostic push
@@ -556,5 +554,7 @@ INITIALIZER(setup)
 
 // Re-enable warnings
 #pragma GCC diagnostic pop
+
+#define get_string(...) get_string(NULL, __VA_ARGS__)
 
 #endif // GSTIO_H
