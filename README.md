@@ -3,7 +3,7 @@ GSTIO Library for C is created with minor modifications to [CS50 Library for C](
 
 ## Single files usage
 For C projects with a single code file. Mainly useful in Moodle Code Runner and starting programs in Replit projects.
-Download the file from [here](single-file/gstio.h)
+Download the file from [here](https://raw.githubusercontent.com/gitam-2022/libgstio/main/single-file/gstio.h).
 
 ## Multiple files usage
 For C projects with multiple code files using `gstio.h`. 
