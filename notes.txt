@@ -1,0 +1,8 @@
+The #define of get_string is important.
+
+https://manual.cs50.io/3/get_string
+
+Last year CS50.
+https://cs50.harvard.edu/college/2021/fall/weeks/1/
+
+This year: https://cs50.harvard.edu/college/2022/fall/weeks/1/
