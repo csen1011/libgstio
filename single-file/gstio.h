@@ -1,6 +1,6 @@
 /**
  * GSTIO Library for C
- * https://github.com/gitam-2022/libgstio
+ * https://github.com/csen1011/libgstio
  * 
  * With minor modifications to CS50 Library for C 
  * https://github.com/cs50/libcs50
