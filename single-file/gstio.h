@@ -506,9 +506,10 @@ long long get_long_long(const char *format, ...)
 static void teardown(void)
 {
     // Free library's strings
+    size_t i;
     if (strings != NULL)
     {
-        for (size_t i = 0; i < allocations; i++)
+        for (i = 0; i < allocations; i++)
         {
             free(strings[i]);
         }
